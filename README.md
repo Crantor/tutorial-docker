@@ -123,10 +123,13 @@ Buenas prácticas:
 Para ejecutar algo con argumentos lo hacemos con
 *docker run --rm -e ARGS="cidaen" crantor/cidaen*
 
-
-# Microservicios
+#Demo 5
+## Microservicios
 
 Elimina las restricciones de la infraestructura subyacente. Independiza cada componente del sistema.
 
 **Docker Compose**
 Fichero de configuración que nos permite dejinir contenedores.
+
+#Demo 6
+**Docker como plataforma.**
