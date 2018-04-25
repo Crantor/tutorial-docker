@@ -113,3 +113,19 @@ Buenas prácticas:
 - Minimiza el número de capas.
 - Cuidado con la **seguridad**, evita usar root y vigila los puertos.
 - Cuidado con la **privacidad**, todas las capas están disponibles.
+
+
+#Demo 4
+*cd tutorial-docker/demo4*
+*docker build -t <workspace>/cidaenweb .*
+*docker run -p 80:80 --rm <workspace>/cidaenweb*
+
+Para ejecutar algo con argumentos lo hacemos con
+*docker run --rm -e ARGS="cidaen" crantor/cidaen*
+
+
+# Microservicios
+
+Elimina las restricciones de la infraestructura subyacente. Independiza cada componente del sistema.
+
+**Docker Compose**

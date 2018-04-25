@@ -12,5 +12,6 @@ USER jupyter
 
 WORKDIR /home/jupyter
 
-CMD jupyter notebook --ip 0.0.0.0
+EXPOSE 8888
 
+CMD jupyter notebook --ip 0.0.0.0
