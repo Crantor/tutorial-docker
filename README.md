@@ -129,3 +129,4 @@ Para ejecutar algo con argumentos lo hacemos con
 Elimina las restricciones de la infraestructura subyacente. Independiza cada componente del sistema.
 
 **Docker Compose**
+Fichero de configuración que nos permite dejinir contenedores.
